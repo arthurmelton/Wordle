@@ -4,6 +4,7 @@ use std::io::{stdin, stdout};
 mod word;
 
 fn main() {
+    println!("Hello this is wordle just start typing your first word!");
     let word = word::rand_word();
     let mut got_word = false;
     for _ in 0..6 {
